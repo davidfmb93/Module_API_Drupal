@@ -1,0 +1,8 @@
+pruebas_module.content:
+    path: '/ApiContent/{content} '
+    defaults:
+        _controller: '\Drupal\test_module\Controller\TestController::content'
+        _title: 'Modulo de pruebas'
+    methods:  [GET]  
+    requirements:
+        _permission: 'access content'

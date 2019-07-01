@@ -1,0 +1,6 @@
+name: Test Module
+description: Módulo de pruebas
+package: David Martinez
+ 
+type: module
+core: 8.x
